@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color: #7B542F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15%;
+}
+
+.container{
+  padding: 10px;
+  border: 2px solid #FFCF71;
+  width: 500px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+}
+
+.top{
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;display: flex;
+}
+
+.scoreCard{
+  margin-left: auto;
+}
+
+input{
+  padding: 10px;
+  border: 1px solid #FF9D00;
+  border-radius: 10px;
+}
+
+input:hover{
+  background-color: #FFCF71;
+}
+
+.text-warning{
+  color: #e2aa0f;
+}
+
+.text-danger{
+  color: rgba(218, 16, 16, 0.973);
+}
+
+.text-success{
+  color: rgb(26, 179, 26);
+}
